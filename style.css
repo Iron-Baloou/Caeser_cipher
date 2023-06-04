@@ -1,0 +1,104 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  text-align: center;
+  margin-top: 100px;
+  background-image: url("img/3820574.jpg");
+  background-size: unset;
+  background-position:center;
+}
+
+header{
+  margin-top: 10vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: rgb(204, 210, 214);
+  margin: 0 auto;
+ 
+}
+
+textarea,
+button,
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+button {
+  width: 100px;
+}
+
+input {
+  width: 200px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(104, 235, 16);
+}
+
+footer {
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  color: rgb(204, 210, 214);
+}
+
+
+/* Handy */
+@media only screen and (max-width: 768px) {
+  body {
+    margin-top: 500px;
+    background-size: unset;
+    background-position: right;
+  }
+
+  textarea,
+  button,
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    margin-top: 280px;
+    background-size: unset;
+    background-position: right;
+  }
+
+  textarea,
+  button,
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+

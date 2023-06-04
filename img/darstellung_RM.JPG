@@ -1,0 +1,22 @@
+## H2
+Cseaser Verschlüsselung
+
+
+
+Verschlüsselung von Texten. Die Buchstaben werd um einen Wert nach rechts im Alphaphet verschoben.
+
+Der verschlüsselte Text wird in einem Outputfenster ausgeben. Die Felder werden durch einen Resetbutton zurückgesetzt.
+
+"Verschlüsselt Button starte die Funktion:
+
+function verschlüsseln()
+
+Übernahme der Input der Inputfelder. Speicherung im Array crypttext.
+
+Starten der Schleife die jeden Buchstaben aus dem Array
+
+
+
+
+
+
